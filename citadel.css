@@ -1,0 +1,118 @@
+
+#page-wrapper{
+    display: flex;
+    margin: -8px;
+    background-image: url("http://127.0.0.1:5500/images/a484.jpg");
+    
+}   
+#left{
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(52, 73, 94);
+    border-radius: 10px;
+    text-align: left;
+    width: max-content;
+    color: green;
+}
+#right{
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(52, 73, 94);
+    border-radius: 10px;
+    text-align: center;
+    width: 230px;
+    border: solid;
+    border-color: rgb(0, 200 , 200);
+}
+#center{
+ background-image: url();
+}
+#logo{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgb(15, 99, 4);
+    margin: 0px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#half-logo{
+    color: darkmagenta;
+}
+#search-area{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 160px;
+    margin-top: 15px;
+    border-radius: 10px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    background-image: url("http://127.0.0.1:5500/images/IMG_20220709_092739.jpg");
+    background-size: 100%;
+    color: blue;
+    opacity: 0.5;
+    box-shadow: 4px 3px 5px 3px rgb(0, 200 , 200), 2px 2px 5px 2px rgb(0, 255, 0) ;
+    
+}
+input{
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+}
+#gmail-icon{
+    width: 20px;
+}
+#phone-icon{
+    width: 20px;
+}
+ul{
+    list-style-type: none;
+}
+#nav-bar{
+    padding: 0px;
+    width:200px;
+}
+#nav-bar li{
+    padding: 5px;
+    border: solid;
+    border-color: rgb(150, 255 , 255);
+    border-radius: 10px;
+}
+#profile{
+    border-radius: 50%;
+    width: 100px;
+}
+#slide-show img{
+    width: 180px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 15px;
+}
+#img1:hover{
+    width: 200px;
+    box-shadow: 3px 3px 3px rgb(255, 150, 200);
+}
+
+#img2:hover{
+    width: 200px;
+    box-shadow: 3px 3px 3px rgb(100, 250, 100);
+}
+#img3:hover{
+    width: 200px;
+    box-shadow: 3px 3px 3px rgb(234, 238, 10);
+}
+#img4:hover{
+    width: 200px;
+    box-shadow: 3px 3px 3px rgb(5, 119, 226);
+}
+#slide-show{
+    text-align: center;
+
+}
+#more{display: none;}
+#google-map{
+    width: 200px;
+    height: 150px;
+}
