@@ -1,0 +1,24 @@
+#wrapper{
+    background-image: url("https://thumbs.dreamstime.com/b/christmas-tree-snow-background-gorgeous-elegant-gifts-red-silver-panoramic-62309406.jpg");
+    background-repeat: repeat-y;
+    background-size: 1350px 530px;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: aqua;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: black;
+  }  
