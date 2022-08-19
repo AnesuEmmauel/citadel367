@@ -1,0 +1,25 @@
+#wrapper{
+    background-image: url("https://thumbs.dreamstime.com/b/close-up-clockwise-blue-wooden-background-119393013.jpg");
+    background-repeat: repeat-y;
+    background-size: 1350px 530px;
+    color: green;
+}
+a:link {
+    text-decoration: none;
+    color: green;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: green;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: aqua;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: green;
+  }  
