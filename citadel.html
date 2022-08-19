@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="images/IMG_20220725_124428.jpg" type="text/css">
     <link rel="stylesheet" href="images/a484.jpg">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="saved.html">
 
 </head>
 <body>
@@ -32,38 +33,38 @@
         <section id="center">
             <h1 id="logo">Citadel<span id="half-logo">Properties367</span></h1>
             <form id="search-area">
-                <label id="city">location:
-                    <input type="text" placeholder="city /town /province">
+                <label >location:
+                    <input type="text" id="city" placeholder="city /town /province">
                 </label>
-                <label id="price-range">price:
-                    <input type="text" placeholder="enter maximum price">
+                <label >price:
+                    <input type="text" id="price-range" placeholder="enter maximum price">
                 </label>
                 <span id="dots">...</span>
                 <span id="more">
-                    <label >rooms:
-                        <input type="text" placeholder="number of rooms">
+                    <label id="checkbox">rooms:
+                        <input  type="text" placeholder="number of rooms">
+                    </label >
+                    <label id="checkbox">size:
+                        <input  type="number" >
                     </label>
-                    <label >size:
-                        <input type="number" >
+                    <p id="type-disc">choose the type of property(s) you are looking for:</p>
+                    <label id="checkbox">
+                        <input  type="checkbox">residetial
                     </label>
-                    <p>choose the type of property(s) you are looking for:</p>
-                    <label>
-                        <input type="checkbox">residetial
-                    </label>
-                    <label>
+                    <label id="checkbox">
                         <input type="checkbox">comercial
                     </label>
-                    <label>
-                        <input type="checkbox">industrial
+                    <label id="checkbox">
+                        <input  type="checkbox">industrial
                     </label>
-                    <label>
-                        <input type="checkbox">agricultural
+                    <label id="checkbox">
+                        <input  type="checkbox">agricultural
                     </label>
                 </span>
                 <br>
                 <button onclick="myFunction()" id="myBtn">more filters</button>
-                <label>
-                    <input type="button" value="search">
+                <label >
+                    <input id="search-btn" type="submit" value="search">
                 </label>
             </form>
             <div id="slide-show">
