@@ -3,6 +3,8 @@
     display: flex;
     margin: -8px;
     background-image: url("https://thumbs.dreamstime.com/b/blue-color-tone-close-up-rain-water-drop-falling-to-floor-rainy-season-56849111.jpg");
+    background-repeat: repeat-y;
+    background-size: 1350px 530px;
     
 }   
 #left{
