@@ -5,7 +5,6 @@
     background-image: url("https://thumbs.dreamstime.com/b/blue-color-tone-close-up-rain-water-drop-falling-to-floor-rainy-season-56849111.jpg");
     background-repeat: repeat-y;
     background-size: 1350px 530px;
-    
 }   
 #left{
     margin: 10px;
@@ -26,9 +25,7 @@
     border: solid;
     border-color: rgb(0, 200 , 200);
 }
-#center{
- background-image: url();
-}
+
 #logo{
     background-color: rgba(0, 0, 0, 0.2);
     color: rgb(15, 99, 4);
@@ -43,6 +40,7 @@
     display: flex;
     flex-direction: column;
     width: 600px;
+    height: 250px;
     margin-left: 160px;
     margin-top: 15px;
     border-radius: 10px;
@@ -50,7 +48,7 @@
     right: 0px;
     text-align: center;
     background-image: url("http://127.0.0.1:5500/images/IMG_20220709_092739.jpg");
-    background-size: 100%;
+    background-size: 600px 250px;
     color: blue;
     opacity: 0.5;
     box-shadow: 4px 3px 5px 3px rgb(0, 200 , 200), 2px 2px 5px 2px rgb(0, 255, 0) ;
@@ -81,6 +79,9 @@ ul{
     border: solid;
     border-color: rgb(150, 255 , 255);
     border-radius: 10px;
+}
+#nav-bar li:hover{
+    background-color: rgba(0, 0, 0, 0.2);
 }
 #profile{
     border-radius: 50%;
@@ -113,8 +114,46 @@ ul{
     text-align: center;
 
 }
-#more{display: none;}
+#more{
+    display: none;
+}
 #google-map{
     width: 200px;
     height: 150px;
 }
+#city{
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+#price-range{
+    margin-bottom: 10px;
+}
+#myBtn{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#checkbox{
+    color: rgb(231, 219, 219);
+}
+#type-disc{
+    color: limegreen;
+}
+a:link {
+    text-decoration: none;
+    color: green;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: green;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: yellow;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: green;
+  }  
