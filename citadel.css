@@ -156,4 +156,42 @@ a:link {
   a:active {
     text-decoration: none;
     color: green;
-  }  
+  }
+@media (max-width: 600px){
+    #page-wrapper{
+        display: block;
+        margin: 0px;
+        background-image: url("https://thumbs.dreamstime.com/b/blue-color-tone-close-up-rain-water-drop-falling-to-floor-rainy-season-56849111.jpg");
+        background-repeat: repeat-y;
+        background-size: 1350px 530px;
+    }  
+    #search-area{
+        display: none;
+        flex-direction: column;
+        width: 600px;
+        height: 250px;
+        margin-left: 160px;
+        margin-top: 15px;
+        border-radius: 10px;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+        background-image: url("http://127.0.0.1:5500/images/IMG_20220709_092739.jpg");
+        background-size: 600px 250px;
+        color: blue;
+        opacity: 0.5;
+        box-shadow: 4px 3px 5px 3px rgb(0, 200 , 200), 2px 2px 5px 2px rgb(0, 255, 0) ;
+        
+    }
+    #logo{
+        position: sticky;
+        top: 0px;
+        background-color: rgb(52, 73, 94);
+        text-align: center;
+        width: inherit;
+        border-radius: 0px 0px 10px 10px;
+    }
+    #left{
+        display: none;
+    }
+}
