@@ -157,6 +157,9 @@ a:link {
     text-decoration: none;
     color: green;
   }
+#access-btns{
+    display: none;
+} 
 @media (max-width: 600px){
     #page-wrapper{
         display: block;
@@ -185,13 +188,24 @@ a:link {
     }
     #logo{
         position: sticky;
-        top: 0px;
+        top: -10px;
         background-color: rgb(52, 73, 94);
         text-align: center;
         width: inherit;
-        border-radius: 0px 0px 10px 10px;
+        border-radius: 0px;
     }
     #left{
         display: none;
+    }
+    #access-btns{
+        display: contents;
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        border: solid;
+        background-color: dimgray;
+        border-radius: 0px 0px 10px 10px;
+        position: sticky;
+        top: 30px;
     }
 }
