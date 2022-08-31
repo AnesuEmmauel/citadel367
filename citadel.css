@@ -143,20 +143,20 @@ a:link {
     color: green;
   }
   
-  a:visited {
-    text-decoration: none;
-    color: green;
-  }
+a:visited {
+text-decoration: none;
+color: green;
+}
   
-  a:hover {
-    text-decoration: underline;
-    color: yellow;
-  }
+a:hover {
+text-decoration: none;
+color: yellow;
+}
   
-  a:active {
-    text-decoration: none;
-    color: green;
-  }
+a:active {
+text-decoration: none;
+color: green;
+}
 #access-btns{
     display: none;
 } 
