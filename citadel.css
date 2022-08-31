@@ -208,4 +208,27 @@ color: green;
         position: sticky;
         top: 30px;
     }
+    #slide-show img{
+        width: 120px;
+        height: 150px;
+        border-radius: 20px;
+        margin: 15px;
+    }
+    #img1:hover{
+        width: 150px;
+        box-shadow: 3px 3px 3px rgb(255, 150, 200);
+    }
+    
+    #img2:hover{
+        width: 150px;
+        box-shadow: 3px 3px 3px rgb(100, 250, 100);
+    }
+    #img3:hover{
+        width: 200px;
+        box-shadow: 3px 3px 3px rgb(234, 238, 10);
+    }
+    #img4:hover{
+        width: 200px;
+        box-shadow: 3px 3px 3px rgb(5, 119, 226);
+    } 
 }
