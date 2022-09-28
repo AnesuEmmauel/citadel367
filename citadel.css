@@ -117,8 +117,10 @@ ul{
 #slide-show{
     text-align: center;
     display: grid;
-    grid-template-columns: 255px 255px 255px;
-    gap: 15px;
+    grid-template-columns: 150px 150px 150px 150px;
+    gap: 10px;
+    justify-content: space-around;
+    margin: 25px 0px 25px 0px;
 }
 .hover1{
     color: transparent;
