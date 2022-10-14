@@ -302,4 +302,12 @@ color: green;
     .fa-search:hover{
         color: rgb(36, 36, 167);
     }
+    #slide-show{
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        justify-content: space-around;
+        margin: 25px 0px 25px 0px;
+    }
 }
